@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Daftar Kegiatan</title>
+    <!-- Link ke file CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <h1>Daftar Kegiatan</h1>
+        <div class="input-container">
+            <input type="text" id="new-task" placeholder="Masukkan kegiatan baru" />
+            <button id="add-btn">Tambahkan</button>
+        </div>
+        <table id="task-table">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Kegiatan</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody id="task-list">
+                <!-- Task akan ditambahkan di sini -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Script JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>

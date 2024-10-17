@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Mengatur encoding karakter ke UTF-8 untuk mendukung berbagai karakter -->
+    <meta charset="UTF-8">
+    
+    <!-- Memastikan bahwa tampilan halaman bersifat responsif terhadap ukuran layar perangkat -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Judul halaman yang akan muncul di tab browser -->
+    <title>Penjumlahan</title>
+    
+    <!-- Menghubungkan ke file CSS eksternal untuk mengatur gaya halaman -->
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <!-- Pembungkus utama untuk keseluruhan konten halaman -->
+    <div class="container">
+        
+        <!-- Judul dari form operasi penjumlahan -->
+        <h2>Penjumlahan</h2>
+        
+        <!-- Div yang menampung form input dan tombol -->
+        <div>
+            <!-- Label untuk input bilangan pertama -->
+            <label for="bil1">Bilangan pertama</label><br>
+            
+            <!-- Input field untuk memasukkan bilangan pertama -->
+            <input type="number" id="bil1" placeholder="Masukkan bilangan pertama"><br>
+
+            <!-- Label untuk input bilangan kedua -->
+            <label for="bil2">Bilangan kedua</label><br>
+            
+            <!-- Input field untuk memasukkan bilangan kedua -->
+            <input type="number" id="bil2" placeholder="Masukkan bilangan kedua"><br>
+
+            <!-- Tombol untuk menjumlahkan dua bilangan; memanggil fungsi jumlah() -->
+            <button onclick="jumlah()">Jumlahkan</button>
+            
+            <!-- Tombol untuk mengatur ulang input dan hasil; memanggil fungsi reset() -->
+            <button onclick="reset()">Reset</button>
+        </div>
+
+        <!-- Div untuk menampilkan hasil penjumlahan -->
+        <div class="result">
+            <!-- Bagian ini akan menampilkan hasil penjumlahan, nilai defaultnya adalah 0 -->
+            Hasil: <span id="hasil">0</span>
+        </div>
+    </div>
+
+    <!-- Menghubungkan ke file JavaScript eksternal yang berisi logika untuk penjumlahan -->
+    <script src="script.js"></script> 
+</body>
+</html>

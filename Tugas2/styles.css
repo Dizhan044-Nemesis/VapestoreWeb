@@ -1,0 +1,98 @@
+/* Gaya Umum */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://wallpaperaccess.com/full/84248.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+.app-container {
+    background-color: rgba(0, 0, 0, 0.8); /* Latar belakang hitam transparan */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Shadow untuk efek 3D */
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #1E90FF; /* Warna biru untuk judul */
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    border: 2px solid #1E90FF; /* Border biru */
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1); /* Transparansi pada input */
+    color: white; /* Warna teks input putih */
+}
+
+input::placeholder {
+    color: #ccc; /* Warna placeholder */
+}
+
+button {
+    padding: 10px;
+    background-color: #1E90FF; /* Warna tombol biru */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #4682B4; /* Warna biru yang lebih terang saat hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Transparansi pada tabel */
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #1E90FF; /* Warna border biru */
+    text-align: center;
+    color: white;
+}
+
+th {
+    background-color: rgba(30, 144, 255, 0.3); /* Biru transparan untuk header */
+}
+
+button.edit-btn, button.delete-btn {
+    background-color: #ff5722; /* Warna tombol edit/hapus */
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+button.edit-btn:hover {
+    background-color: #e64a19; /* Warna hover untuk edit */
+}
+
+button.delete-btn:hover {
+    background-color: #d32f2f; /* Warna hover untuk hapus */
+}
